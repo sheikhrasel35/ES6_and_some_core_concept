@@ -61,7 +61,7 @@ const obj2 = {
 // Seal
 Object.seal(obj2); // Prevent insert, delete
 delete obj2.color;
-obj2.country = "germany";
+obj2.country = "bangladesh";
 obj2.test = "test";
 
 console.log(obj2);
